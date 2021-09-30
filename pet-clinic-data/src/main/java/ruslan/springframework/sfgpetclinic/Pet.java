@@ -1,4 +1,4 @@
-package ruslan.springframework.sfgpetclinic.model;
+package ruslan.springframework.sfgpetclinic;
 
 import java.time.LocalDate;
 

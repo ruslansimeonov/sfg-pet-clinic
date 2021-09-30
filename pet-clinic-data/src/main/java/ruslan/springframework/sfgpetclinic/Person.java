@@ -1,4 +1,4 @@
-package ruslan.springframework.sfgpetclinic.model;
+package ruslan.springframework.sfgpetclinic;
 
 public class Person {
 
