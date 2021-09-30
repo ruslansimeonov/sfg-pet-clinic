@@ -22,12 +22,24 @@
 		<java.version>11</java.version>
 	</properties>
 
+	<scm>
+		<developerConnection>scm:git:https://github.com/ruslansimeonov/sfg-pet-clinic.git</developerConnection>
+		<tag>HEAD</tag>
+	</scm>
+
 	<build>
 		<pluginManagement>
 			<plugins>
 				<plugin>
 					<groupId>org.springframework.boot</groupId>
 					<artifactId>spring-boot-maven-plugin</artifactId>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-site-plugin</artifactId>
+					<configuration>
+						<goal>install</goal>
+					</configuration>
 				</plugin>
 			</plugins></pluginManagement>
 	</build>
