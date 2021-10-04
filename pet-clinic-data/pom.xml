@@ -11,6 +11,12 @@
 
     <artifactId>pet-clinic-data</artifactId>
 
+    <scm>
+        <developerConnection>
+            scm:git@github.com:ruslansimeonov/sfg-pet-clinic.git
+        </developerConnection>
+    </scm>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -56,4 +62,6 @@
             </plugin>
         </plugins>
     </build>
+
+
 </project>
