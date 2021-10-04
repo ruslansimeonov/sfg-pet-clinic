@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>ruslan.springframework</groupId>
 	<artifactId>sfg-pet-clinic</artifactId>
-	<version>1.1-SNAPSHOT</version>
+	<version>0.0.1-SNAPSHOT</version>
 
 	<modules>
 		<module>pet-clinic-data</module>
@@ -24,7 +24,6 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
-		<start-class>ruslan.springframework.sfgpetclinic.SfgPetClinicApplication</start-class>
 </properties>
 
 <dependencies>
@@ -57,10 +56,4 @@
 			</plugins>
 		</pluginManagement>
 	</build>
-
-	<scm>
-		<developerConnection>
-			scm:git:https://github.com/ruslansimeonov/sfg-pet-clinic.git
-		</developerConnection>
-	</scm>
 		</project>
