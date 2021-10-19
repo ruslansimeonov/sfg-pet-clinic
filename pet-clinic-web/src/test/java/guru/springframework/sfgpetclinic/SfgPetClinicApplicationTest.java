@@ -8,7 +8,6 @@ class SfgPetClinicApplicationTest {
 
     @Test
     public void contextLoads(){
-
     }
 
 }
